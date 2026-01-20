@@ -41,6 +41,10 @@ print("-------------------------------------------\n"
 # print(f"My favourite colour is {colour}")
 
 # Write your code below:
+name = "Alice"
+age = 25
+food = "pizza"
+print(f"Hello, {name}")
 
 
 # -------------------------------------------
@@ -63,7 +67,9 @@ print("\n-------------------------------------------\n"
 # print(f"Your double score is {score * 2}")
 
 # Write your code below:
-
+print(f"Alice is {age} years old")
+print(f"In five years, {name} will be {age + 5}")
+print(f"Alice really likes {food}")
 
 # -------------------------------------------
 # Task 3: The Power of Refactoring
