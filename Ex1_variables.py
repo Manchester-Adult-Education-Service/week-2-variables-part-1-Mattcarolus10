@@ -67,9 +67,9 @@ print("\n-------------------------------------------\n"
 # print(f"Your double score is {score * 2}")
 
 # Write your code below:
-print(f"Alice is {age} years old")
+print(f"{name} is {age} years old")
 print(f"In five years, {name} will be {age + 5}")
-print(f"Alice really likes {food}")
+print(f"{name} really likes {food}")
 
 # -------------------------------------------
 # Task 3: The Power of Refactoring
@@ -88,9 +88,9 @@ Name = "Rob"
 Age = 30
 Food = "Jollof rice"
 print(f"Hello {Name}")
-print(f"Rob is {Age} years old")
+print(f"{Name} is {Age} years old")
 print(f"In five years, {Name} will be {Age + 5}")
-print(f"Rob really likes {Food}")
+print(f"{Name} really likes {Food}")
 
 # -------------------------------------------
 # CHECKPOINT: WHAT IS GIT?
@@ -127,7 +127,8 @@ print("\n-------------------------------------------\n"
 # print(f"{city} sounds like a lovely place!")
 
 # Write your code below:
-
+your_name = input("What is your name? ")
+print(f"You are welcome {your_name}")
 
 # Extension 2: Integer Conversion
 # -------------------------------------------
@@ -140,7 +141,7 @@ print("\n-------------------------------------------\n"
 # Ask the user for their age and tell them how old they will be next year.
 
 # Write your code below:
-
+input("What is your n")
 
 # Extension 3: Case Formatting
 # -------------------------------------------
