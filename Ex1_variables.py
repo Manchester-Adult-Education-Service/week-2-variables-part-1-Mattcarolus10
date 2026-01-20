@@ -84,7 +84,13 @@ print("\n-------------------------------------------\n"
 # 3. Print the same 4 sentences as above, but for Bob.
 
 # Write your code below:
-
+Name = "Rob"
+Age = 30
+Food = "Jollof rice"
+print(f"Hello {Name}")
+print(f"Rob is {Age} years old")
+print(f"In five years, {Name} will be {Age + 5}")
+print(f"Rob really likes {Food}")
 
 # -------------------------------------------
 # CHECKPOINT: WHAT IS GIT?
