@@ -158,6 +158,7 @@ print("\n-------------------------------------------\n"
 # print(name.capitalize())
 
 # Write your code below:
+name = input("Please spell your name again. ")
 print(name.upper())
 
 
@@ -186,6 +187,21 @@ print("\n-------------------------------------------\n"
 #    Otherwise, print "Account type: Junior".
 
 # Write your code below:
+Name = input(f"What is your name? ")
+Location = input("Where are you from? ")
+Age = int(input("How old are you? "))
+Hobby = input("What is your hobby? ")
+print(f"Just to double check that your information is correct. Your name is {Name}, you're {Age} years old, you live in {Location} and your hobby is {Hobby}. ")
+Confirmation = input("Is the information correct? ")
+if Confirmation.capitalize() == "Yes":
+    print("Perfect!")
+else:
+    print("I'm sorry, Let's sort it out.")
+if Age >= 18:
+    print("Account type: Adult")
+else:
+    print("Account type: Junior")
+    
 
 
 # -------------------------------------------
