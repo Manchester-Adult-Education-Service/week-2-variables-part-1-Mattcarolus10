@@ -41,6 +41,10 @@ print("-------------------------------------------\n"
 # print(f"My favourite colour is {colour}")
 
 # Write your code below:
+name = "Alice"
+age = 25
+food = "pizza"
+print(f"Hello, {name}")
 
 
 # -------------------------------------------
@@ -63,7 +67,9 @@ print("\n-------------------------------------------\n"
 # print(f"Your double score is {score * 2}")
 
 # Write your code below:
-
+print(f"{name} is {age} years old")
+print(f"In five years, {name} will be {age + 5}")
+print(f"{name} really likes {food}")
 
 # -------------------------------------------
 # Task 3: The Power of Refactoring
@@ -78,7 +84,13 @@ print("\n-------------------------------------------\n"
 # 3. Print the same 4 sentences as above, but for Bob.
 
 # Write your code below:
-
+Name = "Rob"
+Age = 30
+Food = "Jollof rice"
+print(f"Hello {Name}")
+print(f"{Name} is {Age} years old")
+print(f"In five years, {Name} will be {Age + 5}")
+print(f"{Name} really likes {Food}")
 
 # -------------------------------------------
 # CHECKPOINT: WHAT IS GIT?
@@ -115,7 +127,8 @@ print("\n-------------------------------------------\n"
 # print(f"{city} sounds like a lovely place!")
 
 # Write your code below:
-
+your_name = input("What is your name? ")
+print(f"You are welcome {your_name}")
 
 # Extension 2: Integer Conversion
 # -------------------------------------------
@@ -128,7 +141,8 @@ print("\n-------------------------------------------\n"
 # Ask the user for their age and tell them how old they will be next year.
 
 # Write your code below:
-
+your_age= int(input("What is your age? "))
+print(f"You will be {your_age + 1} next year")
 
 # Extension 3: Case Formatting
 # -------------------------------------------
@@ -144,6 +158,8 @@ print("\n-------------------------------------------\n"
 # print(name.capitalize())
 
 # Write your code below:
+name = input("Please spell your name again. ")
+print(name.upper())
 
 
 # -------------------------------------------
@@ -171,6 +187,21 @@ print("\n-------------------------------------------\n"
 #    Otherwise, print "Account type: Junior".
 
 # Write your code below:
+Name = input(f"What is your name? ")
+Location = input("Where are you from? ")
+Age = int(input("How old are you? "))
+Hobby = input("What is your hobby? ")
+print(f"Just to double check that your information is correct. Your name is {Name}, you're {Age} years old, you live in {Location} and your hobby is {Hobby}. ")
+Confirmation = input("Is the information correct? ")
+if Confirmation.capitalize() == "Yes":
+    print("Perfect!")
+else:
+    print("I'm sorry, Let's sort it out.")
+if Age >= 18:
+    print("Account type: Adult")
+else:
+    print("Account type: Junior")
+    
 
 
 # -------------------------------------------
